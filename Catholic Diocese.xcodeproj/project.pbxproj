@@ -7,189 +7,178 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* Catholic_DioceseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Catholic_DioceseAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		28216C970DB411BC00E5133A /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* NewsViewController.m */; };
-		282CCBFE0DB6C98000C4EA27 /* PrayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* PrayerView.xib */; };
-		2840D7CE1179279E00D7F93C /* NewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* NewsView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
-		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
-		B05DADDA130268130073FFA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B05DADD9130268130073FFA8 /* Default.png */; };
-		B0720538130A0FD800CCE80D /* JJGNewsCellReference.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0720537130A0FD800CCE80D /* JJGNewsCellReference.xib */; };
-		B0720540130A11AA00CCE80D /* JJGNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B072053F130A11AA00CCE80D /* JJGNewsCell.m */; };
-		B07205A1130A216D00CCE80D /* default-news-article-image.png in Resources */ = {isa = PBXBuildFile; fileRef = B07205A0130A216D00CCE80D /* default-news-article-image.png */; };
-		B095DA101311A68A007E361C /* ParishEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = B095DA0F1311A68A007E361C /* ParishEvents.m */; };
-		B095DA261311B1AF007E361C /* ParishData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B095DA251311B1AF007E361C /* ParishData.xcdatamodeld */; };
-		B095DA8E1311BECD007E361C /* ParishData 2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B095DA271311B1AF007E361C /* ParishData 2.xcdatamodel */; };
-		B0A834AE1301912B00918C9E /* tab-map.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A834A81301912B00918C9E /* tab-map.png */; };
-		B0A834AF1301912B00918C9E /* tab-map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A834A91301912B00918C9E /* tab-map@2x.png */; };
-		B0A834B61301917700918C9E /* tab-news.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A834B41301917700918C9E /* tab-news.png */; };
-		B0A834B71301917700918C9E /* tab-news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A834B51301917700918C9E /* tab-news@2x.png */; };
-		B0A834D91301937C00918C9E /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A834D71301937C00918C9E /* location.png */; };
-		B0A834DA1301937C00918C9E /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A834D81301937C00918C9E /* location@2x.png */; };
-		B0DC207A12FBC0B700DDB5CD /* PrayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DC207912FBC0B700DDB5CD /* PrayerViewController.m */; };
-		B0DC207D12FBC0D500DDB5CD /* ParishMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DC207C12FBC0D500DDB5CD /* ParishMapViewController.m */; };
-		B0E9550B130B6D880065D5FD /* tab-prayer.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E95509130B6D880065D5FD /* tab-prayer.png */; };
-		B0E9550C130B6D880065D5FD /* tab-prayer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E9550A130B6D880065D5FD /* tab-prayer@2x.png */; };
-		C30276EE1301E68F00625F54 /* ParishDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30276EC1301E68F00625F54 /* ParishDetailViewController.m */; };
-		C30276EF1301E68F00625F54 /* ParishDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30276ED1301E68F00625F54 /* ParishDetailView.xib */; };
 		C3086774130F061300055A3B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3086773130F061300055A3B /* AddressBook.framework */; };
-		C30BB82F130A494F00D32BA8 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BB829130A494F00D32BA8 /* EGOImageLoadConnection.m */; };
-		C30BB830130A494F00D32BA8 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BB82B130A494F00D32BA8 /* EGOImageLoader.m */; };
-		C30BB831130A494F00D32BA8 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BB82E130A494F00D32BA8 /* EGOImageView.m */; };
-		C30BB846130A4C4700D32BA8 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BB845130A4C4700D32BA8 /* EGOCache.m */; };
-		C322B771130B000B00D836C5 /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C322B76D130B000B00D836C5 /* back-arrow.png */; };
-		C322B772130B000B00D836C5 /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C322B76E130B000B00D836C5 /* back-arrow@2x.png */; };
-		C322B773130B000B00D836C5 /* forward-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C322B76F130B000B00D836C5 /* forward-arrow.png */; };
-		C322B774130B000B00D836C5 /* forward-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C322B770130B000B00D836C5 /* forward-arrow@2x.png */; };
-		C322B7F7130B1AA100D836C5 /* JJGCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = C322B7F6130B1AA100D836C5 /* JJGCLController.m */; };
-		C322B896130B33F700D836C5 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = C322B895130B33F700D836C5 /* DSActivityView.m */; };
-		C339A2D913124E08007D39DD /* ParishData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C339A2D813124E08007D39DD /* ParishData.sqlite */; };
 		C35F884612FF178B000AAE5F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35F884512FF178B000AAE5F /* CoreData.framework */; };
-		C35F887812FF1A75000AAE5F /* Parish.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F887712FF1A75000AAE5F /* Parish.m */; };
-		C36F15CD12F4BCFA00B46634 /* ParishMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36F15CC12F4BCFA00B46634 /* ParishMapView.xib */; };
 		C36F15EC12F4C34300B46634 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36F15EB12F4C34300B46634 /* CoreLocation.framework */; };
 		C36F15EE12F4C34300B46634 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36F15ED12F4C34300B46634 /* MapKit.framework */; };
-		C370A2561315AA5600FBCFA7 /* tab-info.png in Resources */ = {isa = PBXBuildFile; fileRef = C370A2541315AA5600FBCFA7 /* tab-info.png */; };
-		C370A2571315AA5600FBCFA7 /* tab-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C370A2551315AA5600FBCFA7 /* tab-info@2x.png */; };
-		C370A25D1315AA8E00FBCFA7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C370A25B1315AA8E00FBCFA7 /* AboutViewController.m */; };
-		C370A25E1315AA8E00FBCFA7 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C370A25C1315AA8E00FBCFA7 /* AboutView.xib */; };
-		C370A2621315BA2100FBCFA7 /* about-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C370A2601315BA2100FBCFA7 /* about-header.jpg */; };
-		C370A2631315BA2100FBCFA7 /* about-header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C370A2611315BA2100FBCFA7 /* about-header@2x.jpg */; };
-		C370B4C81301C78D00D3ECCD /* ParishNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C370B4C61301C78D00D3ECCD /* ParishNavController.xib */; };
-		C370B4E41301C9D200D3ECCD /* ParishNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C370B4E31301C9D200D3ECCD /* ParishNavController.m */; };
-		C379EDB0131A2EC10092F968 /* NewsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C379EDAE131A2EC10092F968 /* NewsNavController.m */; };
-		C379EDB1131A2EC10092F968 /* NewsNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C379EDAF131A2EC10092F968 /* NewsNavController.xib */; };
-		C3AA8E9013034F55007899DD /* ParishSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AA8E8E13034F55007899DD /* ParishSearchViewController.m */; };
-		C3AA8E9113034F55007899DD /* ParishSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AA8E8F13034F55007899DD /* ParishSearchView.xib */; };
-		C3AEE471130E26C700ED7B8F /* AddPrayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AEE46F130E26C700ED7B8F /* AddPrayerViewController.m */; };
-		C3AEE472130E26C700ED7B8F /* AddPrayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AEE470130E26C700ED7B8F /* AddPrayerView.xib */; };
-		C3AEE477130E2A7300ED7B8F /* PrayerNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AEE475130E2A7300ED7B8F /* PrayerNavController.m */; };
-		C3AEE478130E2A7300ED7B8F /* PrayerNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AEE476130E2A7300ED7B8F /* PrayerNavController.xib */; };
-		C3C26E311340ED2800E1B5C1 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C26E281340ED2800E1B5C1 /* CHCSVParser.m */; };
-		C3C26E331340ED2800E1B5C1 /* CHCSVSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C26E2C1340ED2800E1B5C1 /* CHCSVSupport.m */; };
-		C3C26E341340ED2800E1B5C1 /* NSArray+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C26E2E1340ED2800E1B5C1 /* NSArray+CHCSVAdditions.m */; };
-		C3C26E351340ED2800E1B5C1 /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C26E301340ED2800E1B5C1 /* NSString+CHCSVAdditions.m */; };
-		C3C26E481340EF5300E1B5C1 /* CHCSVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C26E471340EF5300E1B5C1 /* CHCSVWriter.m */; };
-		C3D515FC1302F05A00B58D38 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D515F51302F05A00B58D38 /* Icon-29.png */; };
-		C3D515FD1302F05A00B58D38 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D515F61302F05A00B58D38 /* Icon-50.png */; };
-		C3D515FE1302F05A00B58D38 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D515F71302F05A00B58D38 /* Icon-57.png */; };
-		C3D515FF1302F05A00B58D38 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D515F81302F05A00B58D38 /* Icon-58.png */; };
-		C3D516001302F05A00B58D38 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D515F91302F05A00B58D38 /* Icon-72.png */; };
-		C3D516011302F05A00B58D38 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D515FA1302F05A00B58D38 /* Icon-114.png */; };
-		C3D516021302F05A00B58D38 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C3D515FB1302F05A00B58D38 /* iTunesArtwork */; };
-		C3D5B5761305E56600465775 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D5B5741305E56600465775 /* WebViewController.m */; };
-		C3D5B5771305E56600465775 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D5B5751305E56600465775 /* WebView.xib */; };
+		CC26F512145D204100353A29 /* Catholic_DioceseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4E2145D204100353A29 /* Catholic_DioceseAppDelegate.m */; };
+		CC26F513145D204100353A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4E3145D204100353A29 /* main.m */; };
+		CC26F514145D204100353A29 /* Parish.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4E6145D204100353A29 /* Parish.m */; };
+		CC26F515145D204100353A29 /* ParishEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4E8145D204100353A29 /* ParishEvents.m */; };
+		CC26F516145D204100353A29 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4EB145D204100353A29 /* AboutViewController.m */; };
+		CC26F517145D204100353A29 /* AddPrayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4ED145D204100353A29 /* AddPrayerViewController.m */; };
+		CC26F518145D204100353A29 /* JJGCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4EF145D204100353A29 /* JJGCLController.m */; };
+		CC26F519145D204100353A29 /* NewsNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4F1145D204100353A29 /* NewsNavController.m */; };
+		CC26F51A145D204100353A29 /* NewsNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F4F2145D204100353A29 /* NewsNavController.xib */; };
+		CC26F51B145D204100353A29 /* ParishNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4F7145D204100353A29 /* ParishNavController.m */; };
+		CC26F51C145D204100353A29 /* ParishSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4F9145D204100353A29 /* ParishSearchViewController.m */; };
+		CC26F51D145D204100353A29 /* PrayerNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4FB145D204100353A29 /* PrayerNavController.m */; };
+		CC26F51E145D204100353A29 /* PrayerNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F4FC145D204100353A29 /* PrayerNavController.xib */; };
+		CC26F51F145D204100353A29 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F4FF145D204100353A29 /* WebViewController.m */; };
+		CC26F520145D204100353A29 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F501145D204100353A29 /* AboutView.xib */; };
+		CC26F521145D204100353A29 /* AddPrayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F502145D204100353A29 /* AddPrayerView.xib */; };
+		CC26F522145D204100353A29 /* JJGNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F504145D204100353A29 /* JJGNewsCell.m */; };
+		CC26F523145D204100353A29 /* JJGNewsCellReference.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F505145D204100353A29 /* JJGNewsCellReference.xib */; };
+		CC26F524145D204100353A29 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F506145D204100353A29 /* MainWindow.xib */; };
+		CC26F525145D204100353A29 /* NewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F507145D204100353A29 /* NewsView.xib */; };
+		CC26F526145D204100353A29 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F508145D204100353A29 /* NewsViewController.m */; };
+		CC26F527145D204100353A29 /* ParishDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F509145D204100353A29 /* ParishDetailView.xib */; };
+		CC26F528145D204100353A29 /* ParishDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F50A145D204100353A29 /* ParishDetailViewController.m */; };
+		CC26F529145D204100353A29 /* ParishMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F50B145D204100353A29 /* ParishMapView.xib */; };
+		CC26F52A145D204100353A29 /* ParishMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F50C145D204100353A29 /* ParishMapViewController.m */; };
+		CC26F52B145D204100353A29 /* ParishNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F50D145D204100353A29 /* ParishNavController.xib */; };
+		CC26F52C145D204100353A29 /* ParishSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F50E145D204100353A29 /* ParishSearchView.xib */; };
+		CC26F52D145D204100353A29 /* PrayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F50F145D204100353A29 /* PrayerView.xib */; };
+		CC26F52E145D204100353A29 /* PrayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F510145D204100353A29 /* PrayerViewController.m */; };
+		CC26F52F145D204100353A29 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26F511145D204100353A29 /* WebView.xib */; };
+		CC26F548145D204B00353A29 /* about-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC26F531145D204B00353A29 /* about-header.jpg */; };
+		CC26F549145D204B00353A29 /* about-header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC26F532145D204B00353A29 /* about-header@2x.jpg */; };
+		CC26F54A145D204B00353A29 /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F533145D204B00353A29 /* back-arrow.png */; };
+		CC26F54B145D204B00353A29 /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F534145D204B00353A29 /* back-arrow@2x.png */; };
+		CC26F54C145D204B00353A29 /* Catholic_Diocese-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC26F535145D204B00353A29 /* Catholic_Diocese-Info.plist */; };
+		CC26F54D145D204B00353A29 /* default-news-article-image.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F536145D204B00353A29 /* default-news-article-image.png */; };
+		CC26F54E145D204B00353A29 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F537145D204B00353A29 /* Default.png */; };
+		CC26F54F145D204B00353A29 /* forward-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F538145D204B00353A29 /* forward-arrow.png */; };
+		CC26F550145D204B00353A29 /* forward-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F539145D204B00353A29 /* forward-arrow@2x.png */; };
+		CC26F551145D204B00353A29 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F53A145D204B00353A29 /* Icon-114.png */; };
+		CC26F552145D204B00353A29 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F53B145D204B00353A29 /* Icon-29.png */; };
+		CC26F553145D204B00353A29 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F53C145D204B00353A29 /* Icon-50.png */; };
+		CC26F554145D204B00353A29 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F53D145D204B00353A29 /* Icon-57.png */; };
+		CC26F555145D204B00353A29 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F53E145D204B00353A29 /* Icon-58.png */; };
+		CC26F556145D204B00353A29 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F53F145D204B00353A29 /* Icon-72.png */; };
+		CC26F557145D204B00353A29 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = CC26F540145D204B00353A29 /* iTunesArtwork */; };
+		CC26F558145D204B00353A29 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F541145D204B00353A29 /* location.png */; };
+		CC26F559145D204B00353A29 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC26F542145D204B00353A29 /* location@2x.png */; };
+		CC26F55A145D204B00353A29 /* ParishData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CC26F543145D204B00353A29 /* ParishData.sqlite */; };
+		CC26F55B145D204B00353A29 /* ParishData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC26F544145D204B00353A29 /* ParishData.xcdatamodeld */; };
+		CC26F55C145D204B00353A29 /* tabs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC26F547145D204B00353A29 /* tabs.bundle */; };
+		CC26F578145D205300353A29 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F560145D205300353A29 /* CHCSVParser.m */; };
+		CC26F579145D205300353A29 /* CHCSVSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F562145D205300353A29 /* CHCSVSupport.m */; };
+		CC26F57A145D205300353A29 /* CHCSVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F564145D205300353A29 /* CHCSVWriter.m */; };
+		CC26F57B145D205300353A29 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F566145D205300353A29 /* DSActivityView.m */; };
+		CC26F57C145D205300353A29 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F569145D205300353A29 /* EGOCache.m */; };
+		CC26F57D145D205300353A29 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F56C145D205300353A29 /* EGOImageLoadConnection.m */; };
+		CC26F57E145D205300353A29 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F56E145D205300353A29 /* EGOImageLoader.m */; };
+		CC26F57F145D205300353A29 /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F571145D205300353A29 /* EGOImageView.m */; };
+		CC26F580145D205300353A29 /* JJGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F573145D205300353A29 /* JJGTest.m */; };
+		CC26F581145D205300353A29 /* NSArray+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F575145D205300353A29 /* NSArray+CHCSVAdditions.m */; };
+		CC26F582145D205300353A29 /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26F577145D205300353A29 /* NSString+CHCSVAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* Catholic_DioceseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Catholic_DioceseAppDelegate.h; path = Classes/Catholic_DioceseAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* Catholic_DioceseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Catholic_DioceseAppDelegate.m; path = Classes/Catholic_DioceseAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Catholic Diocese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catholic Diocese.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		28216C950DB411BC00E5133A /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
-		28216C960DB411BC00E5133A /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
-		282CCBFD0DB6C98000C4EA27 /* PrayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PrayerView.xib; path = ../PrayerView.xib; sourceTree = "<group>"; };
-		2840D7CD1179279E00D7F93C /* NewsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewsView.xib; path = ../NewsView.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AB4B0D9B1048005BE974 /* Catholic_Diocese_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catholic_Diocese_Prefix.pch; sourceTree = "<group>"; };
-		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Catholic_Diocese-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Catholic_Diocese-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B05DADD9130268130073FFA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B0720537130A0FD800CCE80D /* JJGNewsCellReference.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JJGNewsCellReference.xib; sourceTree = "<group>"; };
-		B072053E130A11AA00CCE80D /* JJGNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGNewsCell.h; sourceTree = "<group>"; };
-		B072053F130A11AA00CCE80D /* JJGNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGNewsCell.m; sourceTree = "<group>"; };
-		B07205A0130A216D00CCE80D /* default-news-article-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-news-article-image.png"; sourceTree = "<group>"; };
-		B095DA0E1311A68A007E361C /* ParishEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishEvents.h; sourceTree = "<group>"; };
-		B095DA0F1311A68A007E361C /* ParishEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishEvents.m; sourceTree = "<group>"; };
-		B095DA271311B1AF007E361C /* ParishData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ParishData 2.xcdatamodel"; sourceTree = "<group>"; };
-		B0A834A81301912B00918C9E /* tab-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-map.png"; sourceTree = "<group>"; };
-		B0A834A91301912B00918C9E /* tab-map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-map@2x.png"; sourceTree = "<group>"; };
-		B0A834B41301917700918C9E /* tab-news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-news.png"; sourceTree = "<group>"; };
-		B0A834B51301917700918C9E /* tab-news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-news@2x.png"; sourceTree = "<group>"; };
-		B0A834D71301937C00918C9E /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
-		B0A834D81301937C00918C9E /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
-		B0DC207812FBC0B700DDB5CD /* PrayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerViewController.h; sourceTree = "<group>"; };
-		B0DC207912FBC0B700DDB5CD /* PrayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerViewController.m; sourceTree = "<group>"; };
-		B0DC207B12FBC0D500DDB5CD /* ParishMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishMapViewController.h; sourceTree = "<group>"; };
-		B0DC207C12FBC0D500DDB5CD /* ParishMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishMapViewController.m; sourceTree = "<group>"; };
-		B0E95509130B6D880065D5FD /* tab-prayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-prayer.png"; sourceTree = "<group>"; };
-		B0E9550A130B6D880065D5FD /* tab-prayer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-prayer@2x.png"; sourceTree = "<group>"; };
-		C30276EB1301E68F00625F54 /* ParishDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishDetailViewController.h; sourceTree = "<group>"; };
-		C30276EC1301E68F00625F54 /* ParishDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishDetailViewController.m; sourceTree = "<group>"; };
-		C30276ED1301E68F00625F54 /* ParishDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParishDetailView.xib; sourceTree = "<group>"; };
 		C3086773130F061300055A3B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		C30BB828130A494F00D32BA8 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
-		C30BB829130A494F00D32BA8 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
-		C30BB82A130A494F00D32BA8 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
-		C30BB82B130A494F00D32BA8 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
-		C30BB82D130A494F00D32BA8 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
-		C30BB82E130A494F00D32BA8 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
-		C30BB844130A4C4700D32BA8 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
-		C30BB845130A4C4700D32BA8 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
-		C322B76D130B000B00D836C5 /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
-		C322B76E130B000B00D836C5 /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
-		C322B76F130B000B00D836C5 /* forward-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-arrow.png"; sourceTree = "<group>"; };
-		C322B770130B000B00D836C5 /* forward-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-arrow@2x.png"; sourceTree = "<group>"; };
-		C322B7F5130B1AA100D836C5 /* JJGCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGCLController.h; sourceTree = "<group>"; };
-		C322B7F6130B1AA100D836C5 /* JJGCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGCLController.m; sourceTree = "<group>"; };
-		C322B894130B33F700D836C5 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
-		C322B895130B33F700D836C5 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
-		C339A2D813124E08007D39DD /* ParishData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ParishData.sqlite; sourceTree = "<group>"; };
 		C35F884512FF178B000AAE5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C35F886312FF1806000AAE5F /* ParishData.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = ParishData.xcdatamodel; sourceTree = "<group>"; };
-		C35F887612FF1A75000AAE5F /* Parish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parish.h; sourceTree = "<group>"; };
-		C35F887712FF1A75000AAE5F /* Parish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parish.m; sourceTree = "<group>"; };
-		C36F15CC12F4BCFA00B46634 /* ParishMapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ParishMapView.xib; path = ../ParishMapView.xib; sourceTree = "<group>"; };
 		C36F15EB12F4C34300B46634 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C36F15ED12F4C34300B46634 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C370A2541315AA5600FBCFA7 /* tab-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-info.png"; sourceTree = "<group>"; };
-		C370A2551315AA5600FBCFA7 /* tab-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-info@2x.png"; sourceTree = "<group>"; };
-		C370A25A1315AA8E00FBCFA7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
-		C370A25B1315AA8E00FBCFA7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		C370A25C1315AA8E00FBCFA7 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
-		C370A2601315BA2100FBCFA7 /* about-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about-header.jpg"; sourceTree = "<group>"; };
-		C370A2611315BA2100FBCFA7 /* about-header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about-header@2x.jpg"; sourceTree = "<group>"; };
-		C370B4C61301C78D00D3ECCD /* ParishNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParishNavController.xib; sourceTree = "<group>"; };
-		C370B4E21301C9D200D3ECCD /* ParishNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishNavController.h; sourceTree = "<group>"; };
-		C370B4E31301C9D200D3ECCD /* ParishNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishNavController.m; sourceTree = "<group>"; };
-		C379EDAD131A2EC10092F968 /* NewsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsNavController.h; sourceTree = "<group>"; };
-		C379EDAE131A2EC10092F968 /* NewsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsNavController.m; sourceTree = "<group>"; };
-		C379EDAF131A2EC10092F968 /* NewsNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsNavController.xib; sourceTree = "<group>"; };
-		C3AA8E8D13034F55007899DD /* ParishSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishSearchViewController.h; sourceTree = "<group>"; };
-		C3AA8E8E13034F55007899DD /* ParishSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishSearchViewController.m; sourceTree = "<group>"; };
-		C3AA8E8F13034F55007899DD /* ParishSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParishSearchView.xib; sourceTree = "<group>"; };
-		C3AEE46E130E26C700ED7B8F /* AddPrayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPrayerViewController.h; sourceTree = "<group>"; };
-		C3AEE46F130E26C700ED7B8F /* AddPrayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPrayerViewController.m; sourceTree = "<group>"; };
-		C3AEE470130E26C700ED7B8F /* AddPrayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPrayerView.xib; sourceTree = "<group>"; };
-		C3AEE474130E2A7300ED7B8F /* PrayerNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerNavController.h; sourceTree = "<group>"; };
-		C3AEE475130E2A7300ED7B8F /* PrayerNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerNavController.m; sourceTree = "<group>"; };
-		C3AEE476130E2A7300ED7B8F /* PrayerNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrayerNavController.xib; sourceTree = "<group>"; };
-		C3C26E261340ED2800E1B5C1 /* CHCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSV.h; sourceTree = "<group>"; };
-		C3C26E271340ED2800E1B5C1 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
-		C3C26E281340ED2800E1B5C1 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
-		C3C26E2B1340ED2800E1B5C1 /* CHCSVSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVSupport.h; sourceTree = "<group>"; };
-		C3C26E2C1340ED2800E1B5C1 /* CHCSVSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVSupport.m; sourceTree = "<group>"; };
-		C3C26E2D1340ED2800E1B5C1 /* NSArray+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CHCSVAdditions.h"; sourceTree = "<group>"; };
-		C3C26E2E1340ED2800E1B5C1 /* NSArray+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CHCSVAdditions.m"; sourceTree = "<group>"; };
-		C3C26E2F1340ED2800E1B5C1 /* NSString+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CHCSVAdditions.h"; sourceTree = "<group>"; };
-		C3C26E301340ED2800E1B5C1 /* NSString+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CHCSVAdditions.m"; sourceTree = "<group>"; };
-		C3C26E461340EF5300E1B5C1 /* CHCSVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVWriter.h; sourceTree = "<group>"; };
-		C3C26E471340EF5300E1B5C1 /* CHCSVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVWriter.m; sourceTree = "<group>"; };
-		C3D515F51302F05A00B58D38 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
-		C3D515F61302F05A00B58D38 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
-		C3D515F71302F05A00B58D38 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
-		C3D515F81302F05A00B58D38 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
-		C3D515F91302F05A00B58D38 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		C3D515FA1302F05A00B58D38 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
-		C3D515FB1302F05A00B58D38 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		C3D5B5731305E56600465775 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		C3D5B5741305E56600465775 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		C3D5B5751305E56600465775 /* WebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		CC26F4E0145D204100353A29 /* Catholic_Diocese_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catholic_Diocese_Prefix.pch; sourceTree = "<group>"; };
+		CC26F4E1145D204100353A29 /* Catholic_DioceseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catholic_DioceseAppDelegate.h; sourceTree = "<group>"; };
+		CC26F4E2145D204100353A29 /* Catholic_DioceseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catholic_DioceseAppDelegate.m; sourceTree = "<group>"; };
+		CC26F4E3145D204100353A29 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC26F4E5145D204100353A29 /* Parish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parish.h; sourceTree = "<group>"; };
+		CC26F4E6145D204100353A29 /* Parish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parish.m; sourceTree = "<group>"; };
+		CC26F4E7145D204100353A29 /* ParishEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishEvents.h; sourceTree = "<group>"; };
+		CC26F4E8145D204100353A29 /* ParishEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishEvents.m; sourceTree = "<group>"; };
+		CC26F4EA145D204100353A29 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		CC26F4EB145D204100353A29 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		CC26F4EC145D204100353A29 /* AddPrayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPrayerViewController.h; sourceTree = "<group>"; };
+		CC26F4ED145D204100353A29 /* AddPrayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPrayerViewController.m; sourceTree = "<group>"; };
+		CC26F4EE145D204100353A29 /* JJGCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGCLController.h; sourceTree = "<group>"; };
+		CC26F4EF145D204100353A29 /* JJGCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGCLController.m; sourceTree = "<group>"; };
+		CC26F4F0145D204100353A29 /* NewsNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsNavController.h; sourceTree = "<group>"; };
+		CC26F4F1145D204100353A29 /* NewsNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsNavController.m; sourceTree = "<group>"; };
+		CC26F4F2145D204100353A29 /* NewsNavController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsNavController.xib; sourceTree = "<group>"; };
+		CC26F4F3145D204100353A29 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		CC26F4F4145D204100353A29 /* ParishDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishDetailViewController.h; sourceTree = "<group>"; };
+		CC26F4F5145D204100353A29 /* ParishMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishMapViewController.h; sourceTree = "<group>"; };
+		CC26F4F6145D204100353A29 /* ParishNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishNavController.h; sourceTree = "<group>"; };
+		CC26F4F7145D204100353A29 /* ParishNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishNavController.m; sourceTree = "<group>"; };
+		CC26F4F8145D204100353A29 /* ParishSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParishSearchViewController.h; sourceTree = "<group>"; };
+		CC26F4F9145D204100353A29 /* ParishSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishSearchViewController.m; sourceTree = "<group>"; };
+		CC26F4FA145D204100353A29 /* PrayerNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerNavController.h; sourceTree = "<group>"; };
+		CC26F4FB145D204100353A29 /* PrayerNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerNavController.m; sourceTree = "<group>"; };
+		CC26F4FC145D204100353A29 /* PrayerNavController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrayerNavController.xib; sourceTree = "<group>"; };
+		CC26F4FD145D204100353A29 /* PrayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerViewController.h; sourceTree = "<group>"; };
+		CC26F4FE145D204100353A29 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CC26F4FF145D204100353A29 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		CC26F501145D204100353A29 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		CC26F502145D204100353A29 /* AddPrayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPrayerView.xib; sourceTree = "<group>"; };
+		CC26F503145D204100353A29 /* JJGNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGNewsCell.h; sourceTree = "<group>"; };
+		CC26F504145D204100353A29 /* JJGNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGNewsCell.m; sourceTree = "<group>"; };
+		CC26F505145D204100353A29 /* JJGNewsCellReference.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJGNewsCellReference.xib; sourceTree = "<group>"; };
+		CC26F506145D204100353A29 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CC26F507145D204100353A29 /* NewsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsView.xib; sourceTree = "<group>"; };
+		CC26F508145D204100353A29 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		CC26F509145D204100353A29 /* ParishDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParishDetailView.xib; sourceTree = "<group>"; };
+		CC26F50A145D204100353A29 /* ParishDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishDetailViewController.m; sourceTree = "<group>"; };
+		CC26F50B145D204100353A29 /* ParishMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParishMapView.xib; sourceTree = "<group>"; };
+		CC26F50C145D204100353A29 /* ParishMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParishMapViewController.m; sourceTree = "<group>"; };
+		CC26F50D145D204100353A29 /* ParishNavController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParishNavController.xib; sourceTree = "<group>"; };
+		CC26F50E145D204100353A29 /* ParishSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParishSearchView.xib; sourceTree = "<group>"; };
+		CC26F50F145D204100353A29 /* PrayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrayerView.xib; sourceTree = "<group>"; };
+		CC26F510145D204100353A29 /* PrayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerViewController.m; sourceTree = "<group>"; };
+		CC26F511145D204100353A29 /* WebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebView.xib; sourceTree = "<group>"; };
+		CC26F531145D204B00353A29 /* about-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about-header.jpg"; sourceTree = "<group>"; };
+		CC26F532145D204B00353A29 /* about-header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about-header@2x.jpg"; sourceTree = "<group>"; };
+		CC26F533145D204B00353A29 /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		CC26F534145D204B00353A29 /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
+		CC26F535145D204B00353A29 /* Catholic_Diocese-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Catholic_Diocese-Info.plist"; sourceTree = "<group>"; };
+		CC26F536145D204B00353A29 /* default-news-article-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-news-article-image.png"; sourceTree = "<group>"; };
+		CC26F537145D204B00353A29 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CC26F538145D204B00353A29 /* forward-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-arrow.png"; sourceTree = "<group>"; };
+		CC26F539145D204B00353A29 /* forward-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-arrow@2x.png"; sourceTree = "<group>"; };
+		CC26F53A145D204B00353A29 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		CC26F53B145D204B00353A29 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		CC26F53C145D204B00353A29 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		CC26F53D145D204B00353A29 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		CC26F53E145D204B00353A29 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		CC26F53F145D204B00353A29 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		CC26F540145D204B00353A29 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		CC26F541145D204B00353A29 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		CC26F542145D204B00353A29 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		CC26F543145D204B00353A29 /* ParishData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ParishData.sqlite; sourceTree = "<group>"; };
+		CC26F545145D204B00353A29 /* ParishData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ParishData 2.xcdatamodel"; sourceTree = "<group>"; };
+		CC26F546145D204B00353A29 /* ParishData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParishData.xcdatamodel; sourceTree = "<group>"; };
+		CC26F547145D204B00353A29 /* tabs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = tabs.bundle; sourceTree = "<group>"; };
+		CC26F55E145D205300353A29 /* CHCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSV.h; sourceTree = "<group>"; };
+		CC26F55F145D205300353A29 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		CC26F560145D205300353A29 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		CC26F561145D205300353A29 /* CHCSVSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVSupport.h; sourceTree = "<group>"; };
+		CC26F562145D205300353A29 /* CHCSVSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVSupport.m; sourceTree = "<group>"; };
+		CC26F563145D205300353A29 /* CHCSVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVWriter.h; sourceTree = "<group>"; };
+		CC26F564145D205300353A29 /* CHCSVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVWriter.m; sourceTree = "<group>"; };
+		CC26F565145D205300353A29 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		CC26F566145D205300353A29 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
+		CC26F568145D205300353A29 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		CC26F569145D205300353A29 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		CC26F56B145D205300353A29 /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		CC26F56C145D205300353A29 /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		CC26F56D145D205300353A29 /* EGOImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageLoader.h; sourceTree = "<group>"; };
+		CC26F56E145D205300353A29 /* EGOImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageLoader.m; sourceTree = "<group>"; };
+		CC26F570145D205300353A29 /* EGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOImageView.h; sourceTree = "<group>"; };
+		CC26F571145D205300353A29 /* EGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOImageView.m; sourceTree = "<group>"; };
+		CC26F572145D205300353A29 /* JJGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGTest.h; sourceTree = "<group>"; };
+		CC26F573145D205300353A29 /* JJGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGTest.m; sourceTree = "<group>"; };
+		CC26F574145D205300353A29 /* NSArray+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CHCSVAdditions.h"; sourceTree = "<group>"; };
+		CC26F575145D205300353A29 /* NSArray+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CHCSVAdditions.m"; sourceTree = "<group>"; };
+		CC26F576145D205300353A29 /* NSString+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CHCSVAdditions.h"; sourceTree = "<group>"; };
+		CC26F577145D205300353A29 /* NSString+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CHCSVAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,22 +199,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C3AA5E5B130E1F8900CB99CE /* Parishes */,
-				C3AA5E5D130E1FA900CB99CE /* News */,
-				C3AA5E5E130E1FC300CB99CE /* Prayers */,
-				C370A2591315AA6D00FBCFA7 /* About */,
-				C3D5B5731305E56600465775 /* WebViewController.h */,
-				C3D5B5741305E56600465775 /* WebViewController.m */,
-				C3D5B5751305E56600465775 /* WebView.xib */,
-				C322B7F5130B1AA100D836C5 /* JJGCLController.h */,
-				C322B7F6130B1AA100D836C5 /* JJGCLController.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,45 +210,13 @@
 		29B97314FDCFA39411CA2CEA /* Catholic STL */ = {
 			isa = PBXGroup;
 			children = (
-				C322B891130B33ED00D836C5 /* DSActivityView */,
-				C3C26E251340ED2800E1B5C1 /* CHCSVParser */,
-				C30BB820130A493500D32BA8 /* EGOImageLoading */,
-				080E96DDFE201D6D7F000001 /* Classes */,
-				C35F88F912FF408E000AAE5F /* Model Classes */,
-				C35F88FC12FF40A7000AAE5F /* Application Delegate */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
+				CC26F4DF145D204100353A29 /* Classes */,
+				CC26F55D145D205300353A29 /* Vendor */,
+				CC26F530145D204B00353A29 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = "Catholic STL";
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				28A0AB4B0D9B1048005BE974 /* Catholic_Diocese_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* Catholic_Diocese-Info.plist */,
-				B095DA251311B1AF007E361C /* ParishData.xcdatamodeld */,
-				C339A2D813124E08007D39DD /* ParishData.sqlite */,
-				B07205A0130A216D00CCE80D /* default-news-article-image.png */,
-				B05DADD9130268130073FFA8 /* Default.png */,
-				C370A2601315BA2100FBCFA7 /* about-header.jpg */,
-				C370A2611315BA2100FBCFA7 /* about-header@2x.jpg */,
-				C322B75E130AFFF000D836C5 /* Other Buttons */,
-				C322B75D130AFFD500D836C5 /* Tab Button Images */,
-				B072059A130A204B00CCE80D /* Icons */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -292,193 +233,164 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B072059A130A204B00CCE80D /* Icons */ = {
+		CC26F4DF145D204100353A29 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C3D515F51302F05A00B58D38 /* Icon-29.png */,
-				C3D515F61302F05A00B58D38 /* Icon-50.png */,
-				C3D515F71302F05A00B58D38 /* Icon-57.png */,
-				C3D515F81302F05A00B58D38 /* Icon-58.png */,
-				C3D515F91302F05A00B58D38 /* Icon-72.png */,
-				C3D515FA1302F05A00B58D38 /* Icon-114.png */,
-				C3D515FB1302F05A00B58D38 /* iTunesArtwork */,
+				CC26F4E0145D204100353A29 /* Catholic_Diocese_Prefix.pch */,
+				CC26F4E1145D204100353A29 /* Catholic_DioceseAppDelegate.h */,
+				CC26F4E2145D204100353A29 /* Catholic_DioceseAppDelegate.m */,
+				CC26F4E3145D204100353A29 /* main.m */,
+				CC26F4E4145D204100353A29 /* Models */,
+				CC26F500145D204100353A29 /* Views */,
+				CC26F4E9145D204100353A29 /* View Controllers */,
 			);
-			name = Icons;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		C30BB820130A493500D32BA8 /* EGOImageLoading */ = {
+		CC26F4E4145D204100353A29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C30BB843130A4C4700D32BA8 /* EGOCache */,
-				C30BB827130A494F00D32BA8 /* EGOImageLoader */,
-				C30BB82C130A494F00D32BA8 /* EGOImageView */,
+				CC26F4E5145D204100353A29 /* Parish.h */,
+				CC26F4E6145D204100353A29 /* Parish.m */,
+				CC26F4E7145D204100353A29 /* ParishEvents.h */,
+				CC26F4E8145D204100353A29 /* ParishEvents.m */,
 			);
-			name = EGOImageLoading;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		C30BB827130A494F00D32BA8 /* EGOImageLoader */ = {
+		CC26F4E9145D204100353A29 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C30BB828130A494F00D32BA8 /* EGOImageLoadConnection.h */,
-				C30BB829130A494F00D32BA8 /* EGOImageLoadConnection.m */,
-				C30BB82A130A494F00D32BA8 /* EGOImageLoader.h */,
-				C30BB82B130A494F00D32BA8 /* EGOImageLoader.m */,
+				CC26F4EA145D204100353A29 /* AboutViewController.h */,
+				CC26F4EB145D204100353A29 /* AboutViewController.m */,
+				CC26F4EC145D204100353A29 /* AddPrayerViewController.h */,
+				CC26F4ED145D204100353A29 /* AddPrayerViewController.m */,
+				CC26F4EE145D204100353A29 /* JJGCLController.h */,
+				CC26F4EF145D204100353A29 /* JJGCLController.m */,
+				CC26F4F0145D204100353A29 /* NewsNavController.h */,
+				CC26F4F1145D204100353A29 /* NewsNavController.m */,
+				CC26F4F2145D204100353A29 /* NewsNavController.xib */,
+				CC26F4F3145D204100353A29 /* NewsViewController.h */,
+				CC26F4F4145D204100353A29 /* ParishDetailViewController.h */,
+				CC26F4F5145D204100353A29 /* ParishMapViewController.h */,
+				CC26F4F6145D204100353A29 /* ParishNavController.h */,
+				CC26F4F7145D204100353A29 /* ParishNavController.m */,
+				CC26F4F8145D204100353A29 /* ParishSearchViewController.h */,
+				CC26F4F9145D204100353A29 /* ParishSearchViewController.m */,
+				CC26F4FA145D204100353A29 /* PrayerNavController.h */,
+				CC26F4FB145D204100353A29 /* PrayerNavController.m */,
+				CC26F4FC145D204100353A29 /* PrayerNavController.xib */,
+				CC26F4FD145D204100353A29 /* PrayerViewController.h */,
+				CC26F4FE145D204100353A29 /* WebViewController.h */,
+				CC26F4FF145D204100353A29 /* WebViewController.m */,
 			);
-			path = EGOImageLoader;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		C30BB82C130A494F00D32BA8 /* EGOImageView */ = {
+		CC26F500145D204100353A29 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C30BB82D130A494F00D32BA8 /* EGOImageView.h */,
-				C30BB82E130A494F00D32BA8 /* EGOImageView.m */,
+				CC26F501145D204100353A29 /* AboutView.xib */,
+				CC26F502145D204100353A29 /* AddPrayerView.xib */,
+				CC26F503145D204100353A29 /* JJGNewsCell.h */,
+				CC26F504145D204100353A29 /* JJGNewsCell.m */,
+				CC26F505145D204100353A29 /* JJGNewsCellReference.xib */,
+				CC26F506145D204100353A29 /* MainWindow.xib */,
+				CC26F507145D204100353A29 /* NewsView.xib */,
+				CC26F508145D204100353A29 /* NewsViewController.m */,
+				CC26F509145D204100353A29 /* ParishDetailView.xib */,
+				CC26F50A145D204100353A29 /* ParishDetailViewController.m */,
+				CC26F50B145D204100353A29 /* ParishMapView.xib */,
+				CC26F50C145D204100353A29 /* ParishMapViewController.m */,
+				CC26F50D145D204100353A29 /* ParishNavController.xib */,
+				CC26F50E145D204100353A29 /* ParishSearchView.xib */,
+				CC26F50F145D204100353A29 /* PrayerView.xib */,
+				CC26F510145D204100353A29 /* PrayerViewController.m */,
+				CC26F511145D204100353A29 /* WebView.xib */,
 			);
-			path = EGOImageView;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		C30BB843130A4C4700D32BA8 /* EGOCache */ = {
+		CC26F530145D204B00353A29 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C30BB844130A4C4700D32BA8 /* EGOCache.h */,
-				C30BB845130A4C4700D32BA8 /* EGOCache.m */,
+				CC26F531145D204B00353A29 /* about-header.jpg */,
+				CC26F532145D204B00353A29 /* about-header@2x.jpg */,
+				CC26F533145D204B00353A29 /* back-arrow.png */,
+				CC26F534145D204B00353A29 /* back-arrow@2x.png */,
+				CC26F535145D204B00353A29 /* Catholic_Diocese-Info.plist */,
+				CC26F536145D204B00353A29 /* default-news-article-image.png */,
+				CC26F537145D204B00353A29 /* Default.png */,
+				CC26F538145D204B00353A29 /* forward-arrow.png */,
+				CC26F539145D204B00353A29 /* forward-arrow@2x.png */,
+				CC26F53A145D204B00353A29 /* Icon-114.png */,
+				CC26F53B145D204B00353A29 /* Icon-29.png */,
+				CC26F53C145D204B00353A29 /* Icon-50.png */,
+				CC26F53D145D204B00353A29 /* Icon-57.png */,
+				CC26F53E145D204B00353A29 /* Icon-58.png */,
+				CC26F53F145D204B00353A29 /* Icon-72.png */,
+				CC26F540145D204B00353A29 /* iTunesArtwork */,
+				CC26F541145D204B00353A29 /* location.png */,
+				CC26F542145D204B00353A29 /* location@2x.png */,
+				CC26F543145D204B00353A29 /* ParishData.sqlite */,
+				CC26F544145D204B00353A29 /* ParishData.xcdatamodeld */,
+				CC26F547145D204B00353A29 /* tabs.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC26F55D145D205300353A29 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F55E145D205300353A29 /* CHCSV.h */,
+				CC26F55F145D205300353A29 /* CHCSVParser.h */,
+				CC26F560145D205300353A29 /* CHCSVParser.m */,
+				CC26F561145D205300353A29 /* CHCSVSupport.h */,
+				CC26F562145D205300353A29 /* CHCSVSupport.m */,
+				CC26F563145D205300353A29 /* CHCSVWriter.h */,
+				CC26F564145D205300353A29 /* CHCSVWriter.m */,
+				CC26F565145D205300353A29 /* DSActivityView.h */,
+				CC26F566145D205300353A29 /* DSActivityView.m */,
+				CC26F567145D205300353A29 /* EGOCache */,
+				CC26F56A145D205300353A29 /* EGOImageLoader */,
+				CC26F56F145D205300353A29 /* EGOImageView */,
+				CC26F572145D205300353A29 /* JJGTest.h */,
+				CC26F573145D205300353A29 /* JJGTest.m */,
+				CC26F574145D205300353A29 /* NSArray+CHCSVAdditions.h */,
+				CC26F575145D205300353A29 /* NSArray+CHCSVAdditions.m */,
+				CC26F576145D205300353A29 /* NSString+CHCSVAdditions.h */,
+				CC26F577145D205300353A29 /* NSString+CHCSVAdditions.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CC26F567145D205300353A29 /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				CC26F568145D205300353A29 /* EGOCache.h */,
+				CC26F569145D205300353A29 /* EGOCache.m */,
 			);
 			path = EGOCache;
 			sourceTree = "<group>";
 		};
-		C322B75D130AFFD500D836C5 /* Tab Button Images */ = {
+		CC26F56A145D205300353A29 /* EGOImageLoader */ = {
 			isa = PBXGroup;
 			children = (
-				B0A834A81301912B00918C9E /* tab-map.png */,
-				B0A834A91301912B00918C9E /* tab-map@2x.png */,
-				B0A834B41301917700918C9E /* tab-news.png */,
-				B0A834B51301917700918C9E /* tab-news@2x.png */,
-				B0E95509130B6D880065D5FD /* tab-prayer.png */,
-				B0E9550A130B6D880065D5FD /* tab-prayer@2x.png */,
-				C370A2541315AA5600FBCFA7 /* tab-info.png */,
-				C370A2551315AA5600FBCFA7 /* tab-info@2x.png */,
+				CC26F56B145D205300353A29 /* EGOImageLoadConnection.h */,
+				CC26F56C145D205300353A29 /* EGOImageLoadConnection.m */,
+				CC26F56D145D205300353A29 /* EGOImageLoader.h */,
+				CC26F56E145D205300353A29 /* EGOImageLoader.m */,
 			);
-			name = "Tab Button Images";
+			path = EGOImageLoader;
 			sourceTree = "<group>";
 		};
-		C322B75E130AFFF000D836C5 /* Other Buttons */ = {
+		CC26F56F145D205300353A29 /* EGOImageView */ = {
 			isa = PBXGroup;
 			children = (
-				B0A834D71301937C00918C9E /* location.png */,
-				B0A834D81301937C00918C9E /* location@2x.png */,
-				C322B76D130B000B00D836C5 /* back-arrow.png */,
-				C322B76E130B000B00D836C5 /* back-arrow@2x.png */,
-				C322B76F130B000B00D836C5 /* forward-arrow.png */,
-				C322B770130B000B00D836C5 /* forward-arrow@2x.png */,
+				CC26F570145D205300353A29 /* EGOImageView.h */,
+				CC26F571145D205300353A29 /* EGOImageView.m */,
 			);
-			name = "Other Buttons";
-			sourceTree = "<group>";
-		};
-		C322B891130B33ED00D836C5 /* DSActivityView */ = {
-			isa = PBXGroup;
-			children = (
-				C322B894130B33F700D836C5 /* DSActivityView.h */,
-				C322B895130B33F700D836C5 /* DSActivityView.m */,
-			);
-			name = DSActivityView;
-			sourceTree = "<group>";
-		};
-		C35F88F912FF408E000AAE5F /* Model Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C35F887612FF1A75000AAE5F /* Parish.h */,
-				C35F887712FF1A75000AAE5F /* Parish.m */,
-				B095DA0E1311A68A007E361C /* ParishEvents.h */,
-				B095DA0F1311A68A007E361C /* ParishEvents.m */,
-			);
-			name = "Model Classes";
-			sourceTree = "<group>";
-		};
-		C35F88FC12FF40A7000AAE5F /* Application Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				1D3623240D0F684500981E51 /* Catholic_DioceseAppDelegate.h */,
-				1D3623250D0F684500981E51 /* Catholic_DioceseAppDelegate.m */,
-			);
-			name = "Application Delegate";
-			sourceTree = "<group>";
-		};
-		C370A2591315AA6D00FBCFA7 /* About */ = {
-			isa = PBXGroup;
-			children = (
-				C370A25A1315AA8E00FBCFA7 /* AboutViewController.h */,
-				C370A25B1315AA8E00FBCFA7 /* AboutViewController.m */,
-				C370A25C1315AA8E00FBCFA7 /* AboutView.xib */,
-			);
-			name = About;
-			sourceTree = "<group>";
-		};
-		C3AA5E5B130E1F8900CB99CE /* Parishes */ = {
-			isa = PBXGroup;
-			children = (
-				C370B4E21301C9D200D3ECCD /* ParishNavController.h */,
-				C370B4E31301C9D200D3ECCD /* ParishNavController.m */,
-				C370B4C61301C78D00D3ECCD /* ParishNavController.xib */,
-				B0DC207B12FBC0D500DDB5CD /* ParishMapViewController.h */,
-				B0DC207C12FBC0D500DDB5CD /* ParishMapViewController.m */,
-				C36F15CC12F4BCFA00B46634 /* ParishMapView.xib */,
-				C3AA8E8D13034F55007899DD /* ParishSearchViewController.h */,
-				C3AA8E8E13034F55007899DD /* ParishSearchViewController.m */,
-				C3AA8E8F13034F55007899DD /* ParishSearchView.xib */,
-				C30276EB1301E68F00625F54 /* ParishDetailViewController.h */,
-				C30276EC1301E68F00625F54 /* ParishDetailViewController.m */,
-				C30276ED1301E68F00625F54 /* ParishDetailView.xib */,
-			);
-			name = Parishes;
-			sourceTree = "<group>";
-		};
-		C3AA5E5D130E1FA900CB99CE /* News */ = {
-			isa = PBXGroup;
-			children = (
-				C379EDAD131A2EC10092F968 /* NewsNavController.h */,
-				C379EDAE131A2EC10092F968 /* NewsNavController.m */,
-				C379EDAF131A2EC10092F968 /* NewsNavController.xib */,
-				28216C950DB411BC00E5133A /* NewsViewController.h */,
-				28216C960DB411BC00E5133A /* NewsViewController.m */,
-				2840D7CD1179279E00D7F93C /* NewsView.xib */,
-				B072053E130A11AA00CCE80D /* JJGNewsCell.h */,
-				B072053F130A11AA00CCE80D /* JJGNewsCell.m */,
-				B0720537130A0FD800CCE80D /* JJGNewsCellReference.xib */,
-			);
-			name = News;
-			sourceTree = "<group>";
-		};
-		C3AA5E5E130E1FC300CB99CE /* Prayers */ = {
-			isa = PBXGroup;
-			children = (
-				C3AEE474130E2A7300ED7B8F /* PrayerNavController.h */,
-				C3AEE475130E2A7300ED7B8F /* PrayerNavController.m */,
-				C3AEE476130E2A7300ED7B8F /* PrayerNavController.xib */,
-				B0DC207812FBC0B700DDB5CD /* PrayerViewController.h */,
-				B0DC207912FBC0B700DDB5CD /* PrayerViewController.m */,
-				282CCBFD0DB6C98000C4EA27 /* PrayerView.xib */,
-				C3AEE46E130E26C700ED7B8F /* AddPrayerViewController.h */,
-				C3AEE46F130E26C700ED7B8F /* AddPrayerViewController.m */,
-				C3AEE470130E26C700ED7B8F /* AddPrayerView.xib */,
-			);
-			name = Prayers;
-			sourceTree = "<group>";
-		};
-		C3C26E251340ED2800E1B5C1 /* CHCSVParser */ = {
-			isa = PBXGroup;
-			children = (
-				C3C26E261340ED2800E1B5C1 /* CHCSV.h */,
-				C3C26E271340ED2800E1B5C1 /* CHCSVParser.h */,
-				C3C26E281340ED2800E1B5C1 /* CHCSVParser.m */,
-				C3C26E461340EF5300E1B5C1 /* CHCSVWriter.h */,
-				C3C26E471340EF5300E1B5C1 /* CHCSVWriter.m */,
-				C3C26E2B1340ED2800E1B5C1 /* CHCSVSupport.h */,
-				C3C26E2C1340ED2800E1B5C1 /* CHCSVSupport.m */,
-				C3C26E2D1340ED2800E1B5C1 /* NSArray+CHCSVAdditions.h */,
-				C3C26E2E1340ED2800E1B5C1 /* NSArray+CHCSVAdditions.m */,
-				C3C26E2F1340ED2800E1B5C1 /* NSString+CHCSVAdditions.h */,
-				C3C26E301340ED2800E1B5C1 /* NSString+CHCSVAdditions.m */,
-			);
-			name = CHCSVParser;
+			path = EGOImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -533,45 +445,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				282CCBFE0DB6C98000C4EA27 /* PrayerView.xib in Resources */,
-				2840D7CE1179279E00D7F93C /* NewsView.xib in Resources */,
-				C36F15CD12F4BCFA00B46634 /* ParishMapView.xib in Resources */,
-				B0A834AE1301912B00918C9E /* tab-map.png in Resources */,
-				B0A834AF1301912B00918C9E /* tab-map@2x.png in Resources */,
-				B0A834B61301917700918C9E /* tab-news.png in Resources */,
-				B0A834B71301917700918C9E /* tab-news@2x.png in Resources */,
-				B0A834D91301937C00918C9E /* location.png in Resources */,
-				B0A834DA1301937C00918C9E /* location@2x.png in Resources */,
-				C370B4C81301C78D00D3ECCD /* ParishNavController.xib in Resources */,
-				C30276EF1301E68F00625F54 /* ParishDetailView.xib in Resources */,
-				B05DADDA130268130073FFA8 /* Default.png in Resources */,
-				C3D515FC1302F05A00B58D38 /* Icon-29.png in Resources */,
-				C3D515FD1302F05A00B58D38 /* Icon-50.png in Resources */,
-				C3D515FE1302F05A00B58D38 /* Icon-57.png in Resources */,
-				C3D515FF1302F05A00B58D38 /* Icon-58.png in Resources */,
-				C3D516001302F05A00B58D38 /* Icon-72.png in Resources */,
-				C3D516011302F05A00B58D38 /* Icon-114.png in Resources */,
-				C3D516021302F05A00B58D38 /* iTunesArtwork in Resources */,
-				C3AA8E9113034F55007899DD /* ParishSearchView.xib in Resources */,
-				C3D5B5771305E56600465775 /* WebView.xib in Resources */,
-				B0720538130A0FD800CCE80D /* JJGNewsCellReference.xib in Resources */,
-				B07205A1130A216D00CCE80D /* default-news-article-image.png in Resources */,
-				C322B771130B000B00D836C5 /* back-arrow.png in Resources */,
-				C322B772130B000B00D836C5 /* back-arrow@2x.png in Resources */,
-				C322B773130B000B00D836C5 /* forward-arrow.png in Resources */,
-				C322B774130B000B00D836C5 /* forward-arrow@2x.png in Resources */,
-				B0E9550B130B6D880065D5FD /* tab-prayer.png in Resources */,
-				B0E9550C130B6D880065D5FD /* tab-prayer@2x.png in Resources */,
-				C3AEE472130E26C700ED7B8F /* AddPrayerView.xib in Resources */,
-				C3AEE478130E2A7300ED7B8F /* PrayerNavController.xib in Resources */,
-				C339A2D913124E08007D39DD /* ParishData.sqlite in Resources */,
-				C370A2561315AA5600FBCFA7 /* tab-info.png in Resources */,
-				C370A2571315AA5600FBCFA7 /* tab-info@2x.png in Resources */,
-				C370A25E1315AA8E00FBCFA7 /* AboutView.xib in Resources */,
-				C370A2621315BA2100FBCFA7 /* about-header.jpg in Resources */,
-				C370A2631315BA2100FBCFA7 /* about-header@2x.jpg in Resources */,
-				C379EDB1131A2EC10092F968 /* NewsNavController.xib in Resources */,
+				CC26F51A145D204100353A29 /* NewsNavController.xib in Resources */,
+				CC26F51E145D204100353A29 /* PrayerNavController.xib in Resources */,
+				CC26F520145D204100353A29 /* AboutView.xib in Resources */,
+				CC26F521145D204100353A29 /* AddPrayerView.xib in Resources */,
+				CC26F523145D204100353A29 /* JJGNewsCellReference.xib in Resources */,
+				CC26F524145D204100353A29 /* MainWindow.xib in Resources */,
+				CC26F525145D204100353A29 /* NewsView.xib in Resources */,
+				CC26F527145D204100353A29 /* ParishDetailView.xib in Resources */,
+				CC26F529145D204100353A29 /* ParishMapView.xib in Resources */,
+				CC26F52B145D204100353A29 /* ParishNavController.xib in Resources */,
+				CC26F52C145D204100353A29 /* ParishSearchView.xib in Resources */,
+				CC26F52D145D204100353A29 /* PrayerView.xib in Resources */,
+				CC26F52F145D204100353A29 /* WebView.xib in Resources */,
+				CC26F548145D204B00353A29 /* about-header.jpg in Resources */,
+				CC26F549145D204B00353A29 /* about-header@2x.jpg in Resources */,
+				CC26F54A145D204B00353A29 /* back-arrow.png in Resources */,
+				CC26F54B145D204B00353A29 /* back-arrow@2x.png in Resources */,
+				CC26F54C145D204B00353A29 /* Catholic_Diocese-Info.plist in Resources */,
+				CC26F54D145D204B00353A29 /* default-news-article-image.png in Resources */,
+				CC26F54E145D204B00353A29 /* Default.png in Resources */,
+				CC26F54F145D204B00353A29 /* forward-arrow.png in Resources */,
+				CC26F550145D204B00353A29 /* forward-arrow@2x.png in Resources */,
+				CC26F551145D204B00353A29 /* Icon-114.png in Resources */,
+				CC26F552145D204B00353A29 /* Icon-29.png in Resources */,
+				CC26F553145D204B00353A29 /* Icon-50.png in Resources */,
+				CC26F554145D204B00353A29 /* Icon-57.png in Resources */,
+				CC26F555145D204B00353A29 /* Icon-58.png in Resources */,
+				CC26F556145D204B00353A29 /* Icon-72.png in Resources */,
+				CC26F557145D204B00353A29 /* iTunesArtwork in Resources */,
+				CC26F558145D204B00353A29 /* location.png in Resources */,
+				CC26F559145D204B00353A29 /* location@2x.png in Resources */,
+				CC26F55A145D204B00353A29 /* ParishData.sqlite in Resources */,
+				CC26F55C145D204B00353A29 /* tabs.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,35 +488,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* Catholic_DioceseAppDelegate.m in Sources */,
-				28216C970DB411BC00E5133A /* NewsViewController.m in Sources */,
-				B0DC207A12FBC0B700DDB5CD /* PrayerViewController.m in Sources */,
-				B0DC207D12FBC0D500DDB5CD /* ParishMapViewController.m in Sources */,
-				B095DA261311B1AF007E361C /* ParishData.xcdatamodeld in Sources */,
-				C35F887812FF1A75000AAE5F /* Parish.m in Sources */,
-				C370B4E41301C9D200D3ECCD /* ParishNavController.m in Sources */,
-				C30276EE1301E68F00625F54 /* ParishDetailViewController.m in Sources */,
-				C3AA8E9013034F55007899DD /* ParishSearchViewController.m in Sources */,
-				C3D5B5761305E56600465775 /* WebViewController.m in Sources */,
-				B0720540130A11AA00CCE80D /* JJGNewsCell.m in Sources */,
-				C30BB82F130A494F00D32BA8 /* EGOImageLoadConnection.m in Sources */,
-				C30BB830130A494F00D32BA8 /* EGOImageLoader.m in Sources */,
-				C30BB831130A494F00D32BA8 /* EGOImageView.m in Sources */,
-				C30BB846130A4C4700D32BA8 /* EGOCache.m in Sources */,
-				C322B7F7130B1AA100D836C5 /* JJGCLController.m in Sources */,
-				C322B896130B33F700D836C5 /* DSActivityView.m in Sources */,
-				C3AEE471130E26C700ED7B8F /* AddPrayerViewController.m in Sources */,
-				C3AEE477130E2A7300ED7B8F /* PrayerNavController.m in Sources */,
-				B095DA101311A68A007E361C /* ParishEvents.m in Sources */,
-				B095DA8E1311BECD007E361C /* ParishData 2.xcdatamodel in Sources */,
-				C370A25D1315AA8E00FBCFA7 /* AboutViewController.m in Sources */,
-				C379EDB0131A2EC10092F968 /* NewsNavController.m in Sources */,
-				C3C26E311340ED2800E1B5C1 /* CHCSVParser.m in Sources */,
-				C3C26E331340ED2800E1B5C1 /* CHCSVSupport.m in Sources */,
-				C3C26E341340ED2800E1B5C1 /* NSArray+CHCSVAdditions.m in Sources */,
-				C3C26E351340ED2800E1B5C1 /* NSString+CHCSVAdditions.m in Sources */,
-				C3C26E481340EF5300E1B5C1 /* CHCSVWriter.m in Sources */,
+				CC26F512145D204100353A29 /* Catholic_DioceseAppDelegate.m in Sources */,
+				CC26F513145D204100353A29 /* main.m in Sources */,
+				CC26F514145D204100353A29 /* Parish.m in Sources */,
+				CC26F515145D204100353A29 /* ParishEvents.m in Sources */,
+				CC26F516145D204100353A29 /* AboutViewController.m in Sources */,
+				CC26F517145D204100353A29 /* AddPrayerViewController.m in Sources */,
+				CC26F518145D204100353A29 /* JJGCLController.m in Sources */,
+				CC26F519145D204100353A29 /* NewsNavController.m in Sources */,
+				CC26F51B145D204100353A29 /* ParishNavController.m in Sources */,
+				CC26F51C145D204100353A29 /* ParishSearchViewController.m in Sources */,
+				CC26F51D145D204100353A29 /* PrayerNavController.m in Sources */,
+				CC26F51F145D204100353A29 /* WebViewController.m in Sources */,
+				CC26F522145D204100353A29 /* JJGNewsCell.m in Sources */,
+				CC26F526145D204100353A29 /* NewsViewController.m in Sources */,
+				CC26F528145D204100353A29 /* ParishDetailViewController.m in Sources */,
+				CC26F52A145D204100353A29 /* ParishMapViewController.m in Sources */,
+				CC26F52E145D204100353A29 /* PrayerViewController.m in Sources */,
+				CC26F55B145D204B00353A29 /* ParishData.xcdatamodeld in Sources */,
+				CC26F578145D205300353A29 /* CHCSVParser.m in Sources */,
+				CC26F579145D205300353A29 /* CHCSVSupport.m in Sources */,
+				CC26F57A145D205300353A29 /* CHCSVWriter.m in Sources */,
+				CC26F57B145D205300353A29 /* DSActivityView.m in Sources */,
+				CC26F57C145D205300353A29 /* EGOCache.m in Sources */,
+				CC26F57D145D205300353A29 /* EGOImageLoadConnection.m in Sources */,
+				CC26F57E145D205300353A29 /* EGOImageLoader.m in Sources */,
+				CC26F57F145D205300353A29 /* EGOImageView.m in Sources */,
+				CC26F580145D205300353A29 /* JJGTest.m in Sources */,
+				CC26F581145D205300353A29 /* NSArray+CHCSVAdditions.m in Sources */,
+				CC26F582145D205300353A29 /* NSString+CHCSVAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,9 +532,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Catholic_Diocese_Prefix.pch;
+				GCC_PREFIX_HEADER = Classes/Catholic_Diocese_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Catholic_Diocese-Info.plist";
+				INFOPLIST_FILE = "Resources/Catholic_Diocese-Info.plist";
 				PRODUCT_NAME = "Catholic Diocese";
 			};
 			name = Debug;
@@ -642,9 +548,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeff Geerling";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Catholic_Diocese_Prefix.pch;
+				GCC_PREFIX_HEADER = Classes/Catholic_Diocese_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Catholic_Diocese-Info.plist";
+				INFOPLIST_FILE = "Resources/Catholic_Diocese-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = "Catholic Diocese";
 				SDKROOT = iphoneos;
@@ -688,13 +594,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B095DA251311B1AF007E361C /* ParishData.xcdatamodeld */ = {
+		CC26F544145D204B00353A29 /* ParishData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C35F886312FF1806000AAE5F /* ParishData.xcdatamodel */,
-				B095DA271311B1AF007E361C /* ParishData 2.xcdatamodel */,
+				CC26F545145D204B00353A29 /* ParishData 2.xcdatamodel */,
+				CC26F546145D204B00353A29 /* ParishData.xcdatamodel */,
 			);
-			currentVersion = B095DA271311B1AF007E361C /* ParishData 2.xcdatamodel */;
+			currentVersion = CC26F545145D204B00353A29 /* ParishData 2.xcdatamodel */;
 			path = ParishData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
